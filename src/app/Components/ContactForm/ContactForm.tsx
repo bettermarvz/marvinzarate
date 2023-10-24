@@ -70,7 +70,8 @@ const ContactForm = () => {
         size='xl' 
         fullWidth 
         variant="filled" 
-        color="orange">
+        color="#FF8700"
+        className='bg-[#FF8700]'>
 				Send
 			</Button>
 		</form>
