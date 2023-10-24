@@ -34,7 +34,7 @@ const Main = () => {
         <div className='flex flex-col items-center gap-10 w-full h-full py-14 px-[9vw]'>
           <p className='text-[50px]'>About</p>
           <p className=' w-[70%] text-center'>
-            {`Marvz`} <span className='text-[#FF8700] text-xs'>{`(He/Him)`}</span>, {`I’m a versatile professional who started as a graphic designer and transitioned into Web development. I specialize in web design using Figma and Adobe XD, and I'm proficient in React.js, Next.js, and Webflow. My passion lies in creating visually stunning and highly functional websites. I'm dedicated to staying at the forefront of design and development trends to deliver innovative solutions. Let's collaborate to bring your digital vision to life!`}
+            {`Marvz`} <span className='text-[#FF8700] text-xs'>{`(He/Him)`}</span>, {`I’m a versatile professional who started as a graphic designer and transitioned into Web development. I specialize in web design using Figma, and I'm proficient in React.js, Next.js, and Webflow. My passion lies in creating visually stunning and highly functional websites. I'm dedicated to staying at the forefront of design and development trends to deliver innovative solutions. Let's collaborate to bring your digital vision to life!`}
             </p>
             <p className='text-[25px]'>Sample Works</p>
             <div className='grid grid-flow-col gap-6 w-full'>
