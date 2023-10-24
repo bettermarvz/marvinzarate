@@ -70,7 +70,7 @@ const ContactForm = () => {
         size='xl' 
         fullWidth 
         variant="filled" 
-        color="#FF8700">
+        color="orange">
 				Send
 			</Button>
 		</form>

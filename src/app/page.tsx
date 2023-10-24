@@ -33,7 +33,7 @@ const Main = () => {
             </div>
         </div>
       </div>
-      <div className='w-full h-[100vh] relative z-20 bg-[#E5EDF1] top-0'>
+      <div className='w-full relative z-20 bg-[#E5EDF1] top-0'>
         <div className='flex flex-col items-center gap-10 w-full h-full py-14 px-[9vw]'>
           <p className='text-[50px]'>About</p>
           <p className=' w-[70%] text-center text-lg'>
