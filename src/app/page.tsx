@@ -39,7 +39,7 @@ const Main = () => {
             <p className='text-[25px]'>Sample Works</p>
             <div className='grid grid-flow-col gap-6 w-full'>
               <div className='card row-span-4 bg-white h-60'>
-                sdjg
+                Betterteem
               </div>
               <div className='card row-span-4 bg-white h-60'>
                 sdjg
