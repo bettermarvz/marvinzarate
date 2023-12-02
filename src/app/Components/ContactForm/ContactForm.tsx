@@ -35,7 +35,11 @@ const ContactForm = () => {
    });
   }
   return (
-		<div className = 'w-full h-full flex justify-center items-center flex-col gap-10'><form
+	<div className='border w-full flex'>
+		{/* <div className="bg-red-500 h-full w-1/3">
+sa
+			</div> */}
+		<div className = 'w-full h-full flex justify-center items-center flex-col gap-10 py-10'><form
 			className=" w-3/4"
 			onSubmit={(e) => formSubmitHandler(e)}
 		>
@@ -75,9 +79,10 @@ const ContactForm = () => {
 				Send
 			</Button>
 		</form>
-    <p>or send me an email at <a href="mailto:zarate.marvin@gmail.com">zarate.marvin@gmail.com</a>
+    <p className="text-center">or send me an email at <a href="mailto:zarate.marvin@gmail.com">zarate.marvin@gmail.com</a>
       </p>
     <p></p>
+    </div>
     </div>
 	);
 };
