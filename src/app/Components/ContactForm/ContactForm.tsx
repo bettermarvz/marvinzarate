@@ -35,12 +35,12 @@ const ContactForm = () => {
    });
   }
   return (
-	<div className='border w-full flex'>
+	<div className='sm:border w-full flex'>
 		{/* <div className="bg-red-500 h-full w-1/3">
 sa
 			</div> */}
 		<div className = 'w-full h-full flex justify-center items-center flex-col gap-10 py-10'><form
-			className=" w-3/4"
+			className=" sm:w-3/4"
 			onSubmit={(e) => formSubmitHandler(e)}
 		>
 			<TextInput
@@ -74,8 +74,7 @@ sa
         size='xl' 
         fullWidth 
         variant="filled" 
-        color="#FF8700"
-        className='bg-[#FF8700]'>
+        color="#7EA0B7">
 				Send
 			</Button>
 		</form>
