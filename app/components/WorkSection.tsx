@@ -47,7 +47,7 @@ const previous = [
 
 const WorkSection = () => {
   return (
-    <section className=' bg-[#13505B] justify-center flex py-32'>
+    <section id='projects' className=' bg-[#13505B] justify-center flex py-32'>
       <div className='flex flex-col w-3/5 gap-10'>
         <div className='text-white text-left '>
           <p className='text-2xl'>Current Work</p>

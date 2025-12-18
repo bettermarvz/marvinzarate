@@ -13,7 +13,7 @@ const HeroSection = () => {
         <p className='my-3'>{`My passion lies in creating visually stunning and highly functional web. `}<br />
         {`I'm dedicated to staying at the forefront of design and development trends `}<br />
         {`to deliver innovative solutions. Let's collaborate to bring your digital vision to life!`}</p>
-        <button className='bg-[#BF4E30] w-fit px-4 py-2 rounded-[5px] text-white'>Let’s connect! 🚀</button>
+        <a className='bg-[#BF4E30] w-fit px-4 py-2 rounded-[5px] text-white cursor-pointer' href='mailto:zarate.marvin@gmail.com'>Let’s connect! 🚀</a>
         </div>
         <ConnectSocMed/>
         </section>
