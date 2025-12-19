@@ -34,7 +34,7 @@ const WorkItem = ({
             <p className='font-bold text-[10px]'>{date}</p>
             <p className='text-xs'>{description}</p>
             <div className='flex gap-4 mt-3 h-5'>{icons?.map((item, i)=>(
-                <Image key={i} src={`/icons/white/${item}-icon.svg`} alt='icon' width={20} height={20}/>
+                <Image key={i} src={`/Icons/white/${item}-icon.svg`} alt='icon' width={20} height={20}/>
             ))}</div>
         </div>
     </div>
