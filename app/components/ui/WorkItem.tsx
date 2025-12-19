@@ -1,5 +1,9 @@
+'use client'
+
+
 import Image from 'next/image'
 import React from 'react'
+import * as motion from "motion/react-client"
 
 const WorkItem = ({
     ImageUrl='',
@@ -16,7 +20,15 @@ const WorkItem = ({
 }) => {
   return (
     <div className='flex gap-6 w-full'>
-        <div className='w-fit'><Image src={ImageUrl} alt="work item" width={263.38} height={141.63} /></div>
+        <div className='w-fit'>
+            <motion.button
+                      whileHover={{ scale: 1.1 }}
+                      whileTap={{ scale: 0.95 }}
+                      onHoverStart={() => console.log('hover started!')}
+                    >
+                        <Image src={ImageUrl ? ImageUrl : '/works/empty.png'} alt="work item" width={263.38} height={141.63} />
+                    </motion.button>
+        </div>
         <div className='w-1/2 flex-col justify-start [&>p]:text-left'>
             <p className='font-bold '>{title}</p>
             <p className='font-bold text-[10px]'>{date}</p>
