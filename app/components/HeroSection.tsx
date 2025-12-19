@@ -1,6 +1,7 @@
 import React from 'react'
 import ConnectSocMed from './ConnectSocMed'
 import Navbar from './Navbar'
+import Time from './ui/Time'
 
 const HeroSection = () => {
   return (
@@ -16,8 +17,11 @@ const HeroSection = () => {
         <a className='bg-[#BF4E30] w-fit px-4 py-2 rounded-[5px] text-white cursor-pointer' href='mailto:zarate.marvin@gmail.com'>Let’s connect! 🚀</a>
         </div>
         <ConnectSocMed/>
-        </section>
-        </>
+    </section>
+    <Time/>
+    <div className='w-[1px] h-[768.5px] left-14 absolute bg-black top-24 opacity-40' />
+    {/* <div className='w-[1px] h-[650px] right-14 absolute bg-black top-24 opacity-40' /> */}
+    </>
   )
 }
 

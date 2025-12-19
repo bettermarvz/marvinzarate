@@ -1,3 +1,5 @@
+'use client'
+
 import CSSIcon from '@/public/Icons/CSSIcon'
 import FigmaIcon from '@/public/Icons/FigmaIcon'
 import GitIcon from '@/public/Icons/GitIcon'
@@ -11,12 +13,22 @@ import WebflowIcon from '@/public/Icons/WebflowIcon'
 import WordpressIcon from '@/public/Icons/WordpressIcon'
 import Image from 'next/image'
 import React from 'react'
+import * as motion from "motion/react-client"
+
 
 const AboutSection = () => {
   return (
-    <section id='about' className='flex justify-center items-center bg-[#C8D6DE] text-black py-20'>
+    <section id='about' className='flex justify-center items-center bg-[#D4E7F2] text-black py-20'>
       <div className='w-3/5 flex gap-[50px]'>
-      <div className=''><Image src='/profile.png' alt='profile-photo' height={260} width={260}/></div>
+      <div className=''>
+        <motion.button
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.95 }}
+          onHoverStart={() => console.log('hover started!')}
+        >
+          <Image src='/profile.png' alt='profile-photo' height={260} width={260}/>
+        </motion.button>
+      </div>
       <div className='flex-1 flex flex-col gap-6'><h1 className='text-2xl'>About</h1>
       <p className='text-left'>
         I began my professional career in 2010 as a graphic designer, gradually building my path in the creative industry. Over the years, my passion for innovation inspired me to explore website development, allowing me to merge design with technology.

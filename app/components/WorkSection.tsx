@@ -25,7 +25,14 @@ const personal = [
     description: 'DevLink (MVP) is a Progressive Web App (PWA) that lets developers create a single, shareable profile for all their important links such as GitHub, LinkedIn, portfolios, and coding platforms.',
     icons: ['tailwind','nextjs','typescript', 'git', 'figma'],
     ImageUrl:'/works/devLink.png'
-  }
+  },
+  {
+    title: 'FaithStep',
+    date: '',
+    description: 'Currently under development, FaithStep is a mobile app designed to help users track and grow their spiritual journey through daily devotionals, prayer logs, and community engagement features.',
+    icons: ['tailwind','nextjs','typescript', 'git', 'figma'],
+    ImageUrl:''
+  },
 ]
 
 const previous = [
