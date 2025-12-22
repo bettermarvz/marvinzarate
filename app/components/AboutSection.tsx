@@ -39,14 +39,14 @@ const AboutSection = () => {
       </p>
       <h2 className='font-bold'>Acquired skills</h2>
       <div className='flex items-center gap-8'>
-        <HTMLIcon/>
-        <CSSIcon/>
-        <JavascriptIcon />
-        <TailwindIcon/>
         <ReactJsIcon/>
         <NextJsIcon/>
         <TypeScriptIcon/>
+        <TailwindIcon/>
         <GitIcon/>
+        <HTMLIcon/>
+        <CSSIcon/>
+        <JavascriptIcon />
         <WebflowIcon/>
         <WordpressIcon/>
         <FigmaIcon/>

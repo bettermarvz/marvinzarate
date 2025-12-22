@@ -17,7 +17,7 @@ const Time = () => {
     <div className='absolute right-0 -bottom-[100px] opacity-10'>
         <div className='flex items-end'>
             <div className='[&>p]:text-[384px] font-bold flex flex-col justify-end leading-[350px] align-bottom'>
-                <p>{time.format('h')}</p>
+                <p>{time.format('hh')}</p>
                 <p>{time.format('mm')}<span className='text-[161px]'>{time.format('A')}</span></p>
             </div>
         </div>
