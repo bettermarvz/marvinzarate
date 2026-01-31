@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Nunito_Sans, } from "next/font/google";
 import "./globals.css";
-import ConnectSocMed from "./components/ConnectSocMed";
+import { Analytics } from "@vercel/analytics/next";
 
 const nunito_sans = Nunito_Sans({
   subsets: ["latin"],
@@ -18,13 +18,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" style={{scrollBehavior: "smooth"}}>
-      <body
-        className={`${nunito_sans.className} antialiased min-h-screen`}
-      >
-        <div className="relative h-screen">
-        {children}
-        </div>
+    <html lang="en" style={{ scrollBehavior: "smooth" }}>
+      <body className={`${nunito_sans.className} antialiased min-h-screen`}>
+        <div className="relative h-screen">{children}</div>
+        <Analytics />
       </body>
     </html>
   );
