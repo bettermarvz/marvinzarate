@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Nunito_Sans, } from "next/font/google";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/next";
+import { TooltipProvider } from "@/components/ui/tooltip";
 
 const nunito_sans = Nunito_Sans({
   subsets: ["latin"],
@@ -20,7 +21,9 @@ export default function RootLayout({
   return (
     <html lang="en" style={{ scrollBehavior: "smooth" }}>
       <body className={`${nunito_sans.className} antialiased min-h-screen`}>
-        <div className="relative h-screen">{children}</div>
+        <div className="relative h-screen">
+          <TooltipProvider>{children}</TooltipProvider>
+        </div>
         <Analytics />
       </body>
     </html>
